@@ -21,6 +21,6 @@ function dibujoPorClick()
   lienzo.clearRect(0, 0, d.width, d.height);
   for(l = 1; l <= lineas; l++)
   {
-    dibujarLinea("blue", 0, (l - 1) * 200 / lineas, l * 500 / lineas, 200);
+    dibujarLinea("yellow", 0, (l - 1) * 200 / lineas, l * 500 / lineas, 200);
   }
 }
